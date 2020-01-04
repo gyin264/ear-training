@@ -1,0 +1,30 @@
+.flex-container {
+	/* We first create a flex layout context */
+	display: flex;
+
+	/* Then we define the flow direction 
+	   and if we allow the items to wrap 
+	 * Remember this is the same as:
+	 * flex-direction: row;
+	 * flex-wrap: wrap;
+	 */
+	flex-flow: row wrap;
+
+	/* Then we define how is distributed the remaining space */
+	justify-content: center;
+	justify-content: space-evenly;
+}
+li {
+	display: inline-block;
+}
+ul {
+	padding-left: 0;
+	white-space: nowrap;
+}
+p {
+	font-size: 12px;
+	font-family: avenir, helvetica, roboto, arial, sans-serif;
+	text-align: center;
+	margin-top: 20px;
+	text-decoration: underline;
+}
