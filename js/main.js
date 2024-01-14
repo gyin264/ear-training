@@ -222,7 +222,7 @@ function getVfNoteNameAndAccidental(note) {
 }
 
 function getAudioFile(noteName) {
-	var audioFile = '/audio/' + noteName + '.mp3';
+	var audioFile = '/ear-training/audio/' + noteName + '.mp3';
 	var result = audioFile.replace('#', 's');
 	return result;
 }
