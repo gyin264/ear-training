@@ -1,1 +1,1 @@
-To run, type "python -m SimpleHTTPServer 8080" in your terminal from within this directory. Then, navigate to your browser (Google Chrome and Safari work, Firefox doesn't yet, no idea about IE) and got to localhost:8080. Enjoy.
+Check it out at [https://gyin264.github.io/ear-training/](https://gyin264.github.io/ear-training/)!
